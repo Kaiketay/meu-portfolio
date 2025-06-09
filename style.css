@@ -46,6 +46,32 @@ main {
     padding: 0 1rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #004466;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dark-mode button[type="submit"] {
+    background-color: #333;
+}
+
 section {
     margin-bottom: 2rem;
 }
